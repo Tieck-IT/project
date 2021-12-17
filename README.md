@@ -1,7 +1,7 @@
-# proeject
-진행한 프로젝트 저장공간
+< proeject list>
 
-- 당뇨 예측 간이 모델
+
+# 당뇨 예측 간이 모델
   - 임상검사와 방문없이, 설문조사를 통한 예측 모델 훈련
   - 사용 데이터 : 교육용 데이터 from 질병관리청 국립보건연구원
     / https://www.kdca.go.kr/contents.es?mid=a40504070100
