@@ -34,7 +34,15 @@
 
   [Select Precision vs Recall](https://sumniya.tistory.com/26) /
   [1종오류 vs 2종오류](https://blog.naver.com/PostView.naver?blogId=parksehoon1971&logNo=221611771475&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
+   
+  
+  - [Calculate Average Option of [ Accuracy / Precision / Recall ]](https://rython.tistory.com/14) in multi-class
+    - None : default=’binary’ (positive label을 기준으로 계산)
+    - Micro Average : 클래스 i의  total [TP / FN / FP/ TN]을 이용해 계산
+    - Macro Average : 각 클래스의 [precision / recall / f1 score ]을 구하고 합쳐서 최종 [precision / recall / f1 score ]을 도출
+    - Weighted Average : 각 클래스의 data 개수 가중치를 둔, 가중 평균 Macro Average
     
+  
   - 손실  그래프
   - 정확도 그래프
   - [AUCROC](https://bioinformaticsandme.tistory.com/328)
@@ -43,6 +51,8 @@
     - AUC : 1.0 일 때 최상, Positive / Negative 를 완벽히 구분함
     - x축 : FPR (= 1 - precision)
     - y축 : TPR  (= recall)
+   
+  
   
 
 # [당뇨병 위험 예측 모델](https://github.com/Tieck-IT/proeject/tree/master/PredictDiabetes)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tieck-IT/proeject/blob/master/PredictDiabetes/SimpleModel.ipynb)
