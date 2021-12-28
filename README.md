@@ -18,6 +18,7 @@
   ![image](https://user-images.githubusercontent.com/90205987/147515828-e5b5216c-79de-4830-b2fe-a6aeb9358721.png)
  
   - F1 score : 정밀도와 재현율의 조화평균 (불균형 라벨의 평가 보완)
+  
   ![image](https://user-images.githubusercontent.com/90205987/147515835-439fc4a7-075d-44f8-8477-ce124718e9d5.png)
 
     
@@ -28,6 +29,8 @@
 # [당뇨병 위험 예측 모델](https://github.com/Tieck-IT/proeject/tree/master/PredictDiabetes)
   - 임상검사와 방문없이, 설문조사 데이터를 이용해 예측 모델 훈련
   - 사용 데이터 : 교육용 데이터 from [질병관리청 국립보건연구원](https://www.kdca.go.kr/contents.es?mid=a40504070100)
+    - 라벨 비율
+      - 0  :  0.92925 / 1  :  0.07075
     - Accuracy : 0.9295
     - AUCROC : 0.7831
     - F1 score : 0.8875
