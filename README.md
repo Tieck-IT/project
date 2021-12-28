@@ -41,7 +41,8 @@
     - Positive 결정 임계치에 따른 성능 그래프
     - AUC : 0.5 일 때 최악, Positive / Negative 를 전혀 구분 못함
     - AUC : 1.0 일 때 최상, Positive / Negative 를 완벽히 구분함
-  
+    - x축 : FPR (= 1 - precision)
+    - y축 : TPR  (= recall)
   
 
 # [당뇨병 위험 예측 모델](https://github.com/Tieck-IT/proeject/tree/master/PredictDiabetes)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tieck-IT/proeject/blob/master/PredictDiabetes/SimpleModel.ipynb)
