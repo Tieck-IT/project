@@ -72,3 +72,7 @@
       ![image](https://user-images.githubusercontent.com/90205987/147515793-c54ecf7d-d6cb-4aaa-a669-0d03f9b62411.png)
 
   
+# [리디북스 도서추천 시스템](https://github.com/Tieck-IT/proeject/tree/master/content_system)
+  - 코사인 유사도 기반 유저 기반 추천 / 도서 기반 추천 모델 훈련
+  - sklearn-Surprise 라이브러리의 SVD(잠재요인 행렬분할) 활용
+  - 데이터 획득 경로 : 크롤링 (코드 비공개)
