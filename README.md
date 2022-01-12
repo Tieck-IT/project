@@ -81,3 +81,20 @@
   - 코사인 유사도 기반 유저 기반 추천 / 도서 기반 추천 모델 훈련
   - sklearn-Surprise 라이브러리의 SVD(잠재요인 행렬분할) 활용
   - 데이터 획득 경로 : 크롤링 (코드 비공개)
+
+
+  # 정상 / 초기 / 말기 녹내장 탐지
+- 구현 : [glaucoma_dectetion.ipynb](https://github.com/Tieck-IT/Study/blob/main/paper/glaucoma_dectetion.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tieck-IT/Study/blob/main/paper/glaucoma_dectetion.ipynb)
+  
+  - data : 3 class, Retinal fundus images (normal / early / advanced)
+    - from : Machine learn for glaucoma, HAVARD Dataverse [link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
+  - how : 
+  - reference : Development and Validation of Deep-Learning Algorithm for Electrocardiography-Based Heart Failure Identification
+Joon-myoung Kwon
+- paper : A deep learning model for the detection of both advanced and early glaucoma using fundus photography , Jin Mo Ahn
+  - link is [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0207982)
+- source : HARVARD Dataverse - Machine learn for glaucoma
+  - link is [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
+
