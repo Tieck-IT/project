@@ -83,10 +83,17 @@
   - 데이터 획득 경로 : 크롤링 (코드 비공개)
 
 
-  # 정상 / 초기 / 말기 녹내장 탐지
-- 구현 : [glaucoma_dectetion.ipynb](https://github.com/Tieck-IT/Study/blob/main/paper/glaucoma_dectetion.ipynb)
+  # [정상 / 초기 / 말기 녹내장 탐지](https://github.com/Tieck-IT/proeject/blob/master/paper/glaucoma_dectetion.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tieck-IT/proeject/blob/master/paper/glaucoma_dectetion.ipynb)
+ 
+ - result
+  
+![image](https://user-images.githubusercontent.com/90205987/149133038-e2f8e8a4-fcd5-4a59-badc-4ce4f70c4af7.png)
+![image](https://user-images.githubusercontent.com/90205987/149133070-691b99cb-64ca-4a07-9f05-73f752c64a80.png)
+![image](https://user-images.githubusercontent.com/90205987/149133077-89d4f398-3f17-4020-b573-5945c22093ea.png)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Tieck-IT/Study/blob/main/paper/glaucoma_dectetion.ipynb)
+  
+  ![image](https://user-images.githubusercontent.com/90205987/149133205-72b9f409-71f9-4019-8ea6-27f9d03e4465.png)
+
   
   - data : 3 class, Retinal fundus images (normal / early / advanced)
     - from : Machine learn for glaucoma, HAVARD Dataverse [link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
