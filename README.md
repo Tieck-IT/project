@@ -106,7 +106,7 @@ Joon-myoung Kwon
   - link is [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
 
 
-# [제스처로 이북 넘기기]
+# 제스처로 이북 넘기기
 
 - data : 직접 녹화
 - how :  <[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbR>>>>>>>>>>>>>>>>>>>>Ck&t=38s)> 
@@ -114,7 +114,7 @@ Joon-myoung Kwon
 
 
 1. <이전 페이지로 넘기기>, <다음 페이지로 넘기기>에 해당하는 제스처와 랜드마크 녹화
-2. 수집한 데이터를 LSTM기반 모델에 학습시키기
+2. 수집한 데이터를 간단한 LSTM기반 모델에 학습시키기
 
 ```python
   from tensorflow.keras.models import Sequential
