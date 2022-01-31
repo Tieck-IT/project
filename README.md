@@ -109,7 +109,7 @@ Joon-myoung Kwon
 
 - data : 직접 녹화
 - how :  <[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbR>>>>>>>>>>>>>>>>>>>>Ck&t=38s)> 
-- detail :  [간단한 모션으로 이북 조작하기](https://tieck-it.tistory.com/7?category=977667)
+- detail :  [간단한 모션으로 이북 조작하기](https://tieck-it.tistory.com/7?category=977667) _from blog_
 
 
 1. <이전 페이지로 넘기기>, <다음 페이지로 넘기기>에 해당하는 제스처와 랜드마크 녹화
