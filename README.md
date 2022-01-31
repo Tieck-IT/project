@@ -97,7 +97,6 @@
   
   - data : 3 class, Retinal fundus images (normal / early / advanced)
     - from : Machine learn for glaucoma, HAVARD Dataverse [link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
-  - how : 
   - reference : Development and Validation of Deep-Learning Algorithm for Electrocardiography-Based Heart Failure Identification
 Joon-myoung Kwon
 - paper : A deep learning model for the detection of both advanced and early glaucoma using fundus photography , Jin Mo Ahn
@@ -130,16 +129,18 @@ Joon-myoung Kwon
   model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
   model.summary()
 ```
+  <p align ="center">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGn8tE%2FbtrgbJp1d8u%2FCwkyYk8DcQg0mBq4sYoTw0%2Fimg.png" width="800: height="400"/>
+</p>
+  
 3. 웹캠으로 훈련한 동작을 인식하였을 때 특정 동작 실행
 
 
 <p align ="center">
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb7JiiJ%2Fbtrf7susACJ%2FUKrj9lw7hAlGnmF4zgMyhK%2Fimg.png" />
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlRrqD%2FbtrgbyAF8y9%2FV4NQPLRQ2dLrdzf6GFsFe1%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb7JiiJ%2Fbtrf7susACJ%2FUKrj9lw7hAlGnmF4zgMyhK%2Fimg.png" width="300: height="300"/>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlRrqD%2FbtrgbyAF8y9%2FV4NQPLRQ2dLrdzf6GFsFe1%2Fimg.png" width="300: height="300"/>
 </p>
 
 
-<p align ="center">
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGn8tE%2FbtrgbJp1d8u%2FCwkyYk8DcQg0mBq4sYoTw0%2Fimg.png" />
-</p>
+
 
