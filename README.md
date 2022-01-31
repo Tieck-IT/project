@@ -105,3 +105,41 @@ Joon-myoung Kwon
 - source : HARVARD Dataverse - Machine learn for glaucoma
   - link is [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/1YRRAC)
 
+
+# [제스처로 이북 넘기기]
+
+- data : 직접 녹화
+- how :  <[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbR>>>>>>>>>>>>>>>>>>>>Ck&t=38s)> 
+- detail :  [간단한 모션으로 이북 조작하기](https://tieck-it.tistory.com/7?category=977667)
+
+
+1. <이전 페이지로 넘기기>, <다음 페이지로 넘기기>에 해당하는 제스처와 랜드마크 녹화
+2. 수집한 데이터를 LSTM기반 모델에 학습시키기
+
+```python
+  from tensorflow.keras.models import Sequential
+  from tensorflow.keras.layers import LSTM, Dense, Dropout
+  
+  model = Sequential([
+      LSTM(64, activation='relu', input_shape=x_train.shape[1:3]),
+      Dense(32, activation='relu'),
+      Dense(len(actions), activation='softmax')
+  ])
+
+
+  model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
+  model.summary()
+```
+3. 웹캠으로 훈련한 동작을 인식하였을 때 특정 동작 실행
+
+
+<p align ="center">
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb7JiiJ%2Fbtrf7susACJ%2FUKrj9lw7hAlGnmF4zgMyhK%2Fimg.png" />
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlRrqD%2FbtrgbyAF8y9%2FV4NQPLRQ2dLrdzf6GFsFe1%2Fimg.png" />
+</p>
+
+
+<p align ="center">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGn8tE%2FbtrgbJp1d8u%2FCwkyYk8DcQg0mBq4sYoTw0%2Fimg.png" />
+</p>
+
