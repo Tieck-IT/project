@@ -108,7 +108,7 @@ Joon-myoung Kwon
 # 제스처로 이북 넘기기
 
 - data : 직접 녹화
-- how :  <[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbR>>>>>>>>>>>>>>>>>>>>Ck&t=38s)> 
+- how :  <[손 제스처 인식 딥러닝 인공지능 학습시키기](https://www.youtube.com/watch?v=eHxDWhtbRCk&lc=UgxQPB2N7NxLBa_-S_F4AaABAg.9SqLxu8IlCd9apcXpjtXJ7)> 
 - detail :  [간단한 모션으로 이북 조작하기](https://tieck-it.tistory.com/7?category=977667) _from blog_
 
 
